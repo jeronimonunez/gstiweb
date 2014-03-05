@@ -2228,3 +2228,77 @@ table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoo
 .outer-nav {
   min-height: 500px;
 }
+
+@media screen and (max-width: 960px) {
+  /* line 536, ../sass/_gsti.scss */
+  .effect-moveleft.animate .container {
+    display: none;
+  }
+
+  /* line 540, ../sass/_gsti.scss */
+  .outer-nav.right {
+    width: 90%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
+
+  /* line 546, ../sass/_gsti.scss */
+  .search-box-search {
+    width: 100%;
+  }
+
+  /* line 549, ../sass/_gsti.scss */
+  #search-input-search {
+    width: 80%;
+  }
+
+  /* line 552, ../sass/_gsti.scss */
+  .search-results {
+    width: 100%;
+  }
+
+  /* line 556, ../sass/_gsti.scss */
+  #user-login-button {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    float: right;
+    margin-bottom: 10px;
+  }
+
+  /* line 563, ../sass/_gsti.scss */
+  #header {
+    margin-top: 33px;
+  }
+
+  /* line 567, ../sass/_gsti.scss */
+  .wrapper-960 {
+    width: 90%;
+  }
+
+  /* line 571, ../sass/_gsti.scss */
+  .main-nav a {
+    display: block;
+    width: 100%;
+  }
+  /* line 575, ../sass/_gsti.scss */
+  .main-nav > div {
+    left: 0px;
+  }
+
+  /* line 579, ../sass/_gsti.scss */
+  .super-form {
+    width: 100%;
+  }
+
+  /* line 582, ../sass/_gsti.scss */
+  .super-form input {
+    width: 100%;
+  }
+
+  /* line 586, ../sass/_gsti.scss */
+  .bx-viewport {
+    margin: 3em 0;
+  }
+}

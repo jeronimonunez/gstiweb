@@ -529,3 +529,61 @@ table {
 .outer-nav {
 	min-height: 500px;
 }
+
+$break-small: 960px;
+
+@media screen and (max-width: $break-small) {
+	.effect-moveleft.animate .container {
+		display: none;
+	}
+
+	.outer-nav.right {
+		width: 90%;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+	}
+	.search-box-search {
+		width: 100%;
+	}
+	#search-input-search {
+		width: 80%;
+	}
+	.search-results {
+		width: 100%;
+	}
+
+	#user-login-button {
+		position: absolute;
+		top: 0;
+		right: 10px;
+		float: right;
+		margin-bottom: 10px;
+	}
+	#header {
+		margin-top: 33px;
+	}
+
+	.wrapper-960 {
+		width: 90%;
+	}
+	.main-nav {
+		a {
+			display: block;
+			width: 100%;
+		}
+		& > div {
+			left: 0px;
+		}
+	}
+	.super-form {
+		width: 100%;
+	}
+	.super-form input {
+		width: 100%;
+	}
+
+	.bx-viewport {
+		margin: 3em 0;
+	}
+}
